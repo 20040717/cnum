@@ -12,5 +12,5 @@ function fx(x, a, b, c)
   return y(x)
 end
 
-z = fx (1,2,3,4)
+z = fx(1,2,3,4)
 println(z)
