@@ -1,16 +1,25 @@
-v = 1
-println(v)
+# v = 1
+# println(v)
 
-f(x)=x^2 + x + 1
+# f(x)=x^2 + x + 1
 
-z = f(2)
+# z = f(2)
 
-println(z)
+# println(z)
 
-function fx(x, a, b, c)
-  y(n) = a*n^2 + b*n + c
-  return y(x)
+# function fx(x, a, b, c)
+#   y(n) = a*n^2 + b*n + c
+#   return y(x)
+# end
+
+# z = fx(1,2,3,4)
+# println(z)
+
+
+function z(a,b,c)
+delta=b^2 - 4*a*c
+x1=-b+sqrt(delta)/2*a
+x2=-b-sqrt(delta)/2*a
 end
 
-z = fx(1,2,3,4)
-println(z)
+exit() 
